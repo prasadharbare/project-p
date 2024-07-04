@@ -1,0 +1,35 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.left {
+    height:100%;
+    width: 50%;
+    background-color: orange;
+    background-image: url(left.jpeg);
+    background-size: cover;
+    justify-content: end;
+    align-content: center;
+    align-items: center;
+    font-size: 80px;
+    color:orangered
+}
+.right {
+    height: 100%;
+    width:50%;
+    background-color: blue;
+    background-image: url(right.jpeg);
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size: 80px;
+    color:orangered
+}
